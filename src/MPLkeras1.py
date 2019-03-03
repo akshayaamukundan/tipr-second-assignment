@@ -18,12 +18,12 @@ from keras.optimizers import SGD
 
 a = input("Enter 1 for cat-dog, 2 for mnist")
 if (int(a) == 1):
-    datadir = "/storage2/home2/e1-313-15521/tipr-second-assignment/data1/Cat-Dog/"
+    datadir = "/storage2/home2/e1-313-15521/tipr-second-assignment/data/Cat-Dog/"
     #datadir = '../data1/Cat-Dog'
     categs = ["cat", "dog"]
     categslabel = ["0","1"]
 else:
-    datadir = "/storage2/home2/e1-313-15521/tipr-second-assignment/data1/MNIST/"
+    datadir = "/storage2/home2/e1-313-15521/tipr-second-assignment/data/MNIST/"
     #datadir = '../data1/MNIST'
     categs = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
     categslabel = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
