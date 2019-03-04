@@ -50,7 +50,7 @@ for categ in categs:
     label.append(int(categslabel[i]))
     i += 1
     Xlabel = []
-    print(path)
+    #print(path)
     for img in os.listdir(path):
         imgarray = cv2.imread(os.path.join(path,img), cv2.IMREAD_GRAYSCALE) #colour is not a differentiating factor
         imglinear = []
